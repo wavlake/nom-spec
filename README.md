@@ -2,7 +2,7 @@
 
 _Draft v0.1_
 
-The goal of this spec is to create a minimal document schema that provides Nostr clients with a standard, readable event that contains all the metadata required to present multimedia such as music or video to users. The schema described below is intended to be published as a content string in a standard Nostr event per existing [NIP specifications](https://github.com/nostr-protocol/nips). Specfically, the [Parameterized Replaceable Event kind](https://github.com/nostr-protocol/nips/blob/master/33.md) appears well-suited to housing this type of document.
+The goal of this spec is to create a minimal document schema that provides Nostr clients with a standard, readable event that contains all the metadata required to present multimedia such as music or video to users. The schema described below is intended to be published as a content string in a standard Nostr event per existing [NIP specifications](https://github.com/nostr-protocol/nips). Specfically, the [Parameterized Replaceable Event kind](https://github.com/nostr-protocol/nips/blob/master/33.md) appears well-suited to housing this type of document because the metadata could be updated (the file serving location, for example).
 
 The document labels have been taken directly from or inspired by the structure of [RSS feeds for podcasting](https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md).
 
