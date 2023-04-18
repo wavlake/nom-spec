@@ -21,7 +21,7 @@ For the sake of simplicity, the following concerns are not included in this spec
     "creator": <string>, // Artist name
     "type": <string>, // MIME type (example: "audio/mpeg")
     "duration": <integer>, // Length of media in seconds
-    "pubDate": <integer>, // Unix timestamp
+    "published_at": <string>, // Unix timestamp converted to string
     "link": <string>, // URL to hosting site for media (example: "https://mysite.com/my-song-page")
     "enclosure": <string>, // URL to media content file (example: "https://cdn.com/mysong.mp3")
     "version": <string>, // Schema version to maintain compatibility with clients
